@@ -1,12 +1,20 @@
+import React from 'react';
 import { Footer, Header } from "./components";
+import { Video } from './components/Video/Video';
+import { Greeting } from './components/Greeting/Greeting';
+import { Container } from 'react-bootstrap';
 
 
 function App() {
   return (
-    <div>
+    <>
       <Header/>
+      
+      <Video/>
+      <Greeting/>
+      
       <Footer/>
-    </div>
+    </>
   );
 }
 
