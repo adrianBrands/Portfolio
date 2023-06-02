@@ -1,5 +1,7 @@
 import { Container } from "react-bootstrap";
 import Navbar from 'react-bootstrap/Navbar';
+import { FaMoon, FaSun } from "react-icons/fa";
+
 /*export default function Header(){
   return <header className="header text-white">
     <Container className="d-flex justify-content-between">
@@ -10,12 +12,17 @@ import Navbar from 'react-bootstrap/Navbar';
   </header>
 }*/
 
+
+
+
 export default function Header(){
+  
   return (
-    <Navbar expand="lg" variant="light"  bg="light">
+    <Navbar sticky="top" expand="lg" variant="light"  bg="light">
       <Container className="text-white">
         <Navbar.Brand href="#">Welcome</Navbar.Brand>
-        <Navbar.Text>welcome</Navbar.Text>
+        <Navbar.Brand href="#"><FaMoon/></Navbar.Brand>
+        <Navbar.Brand href="#"><FaSun/></Navbar.Brand>
       </Container>
     </Navbar>
   );

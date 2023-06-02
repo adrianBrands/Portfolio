@@ -1,0 +1,48 @@
+.link {
+  text-decoration: none;
+}
+
+.github {
+  color: rgb(108, 117, 125);
+
+
+&:hover{
+  color: $primary;
+}
+
+}
+
+.venueCard {
+  position: relative;
+  &:hover {
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+    -webkit-transform: scale(1.04);
+    transform: scale(1.04);
+    transition: all 0.5s;
+  }
+}
+
+.productsLink {
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+
+.cardFooter {
+  background-color: $primary;
+  border-top: none;
+
+  &:hover {
+    background-color: #12911e;
+  }
+}
+
+.card{
+  --bs-card-border-width: 0;
+}
+
+
