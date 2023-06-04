@@ -15,16 +15,16 @@ export function CarouselSlide() {
   return (
     <Container>
       <Carousel className="mt-5 mb-5" activeIndex={index} onSelect={handleSelect}>
-        <Carousel.Item>
+        <Carousel.Item className="test">
           <img className="d-block w-100" src={auctioImage} alt="First slide" />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="test">
           <img className="d-block w-100" src={ecom} alt="Second slide" />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="test">
           <img className="d-block w-100" src={petrolImage} alt="Third slide" />
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className="test">
           <img className="d-block w-100" src={holidaze} alt="Fourth slide" />
         </Carousel.Item>
       </Carousel>

@@ -1,20 +1,31 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Image, Row } from "react-bootstrap";
+import profileImage from "../../images/profilbilde.jpg";
+import { Github } from "react-bootstrap-icons";
+import { Linkedin } from "react-bootstrap-icons";
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { ThemeContext } from "../context/ThemeContext";
 
 export function AboutContent() {
+  const {theme} = useContext(ThemeContext)
   return (
-    <Container>
-      <Row>
+    <Container className={theme === "light" ? "text-white" : "text-dark"}>
+      <Row className="mt-3">
         <Col sm>
-          <p className="text-white">
-            test Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati maiores expedita saepe quasi dignissimos doloremque unde incidunt
-            error soluta itaque, nulla quibusdam ullam. Culpa recusandae saepe optio in ipsa voluptatibus.
-          </p>
+          <Image style={{ width: "100%", height: "70vh", objectFit: "cover" }} src={profileImage} />
         </Col>
         <Col sm>
-          <p className="text-white">
-            test2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam asperiores neque nam illum blanditiis veniam, doloribus
-            accusantium vitae sit cumque velit animi placeat dicta alias fuga perspiciatis laudantium aspernatur. Natus.
-          </p>
+          <h3>Front-end developer student at Noroff School of Technology and Digital Media. Graduating 06/2023.</h3>
+          <div className="d-flex flex-wrap justify-content-between align-items-center mt-5">
+            <h4 className="fw-bolder">Contact me:</h4>
+            <p className="fs-4 mt-0 fw-bolder tester">adrianbrandshaug@hotmail.com</p>
+          </div>
+          <div className="d-flex flex-wrap justify-content-between align-items-center mt-5">
+          <Link to="https://github.com/adrianBrands"><Github className="mt-4 mb-0" color={theme === "light" ? "white" : "dark"} size={45} /></Link>
+          <Linkedin className="mt-4 mb-0" color={theme === "light" ? "white" : "dark"} size={45} />
+          
+
+          </div>
         </Col>
       </Row>
     </Container>

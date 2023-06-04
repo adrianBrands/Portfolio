@@ -16,18 +16,18 @@ body {
     monospace;
 }*/
 
-.about{
-  margin-top: 25vh;
-  background: rgba(255, 255, 255, 0.6)
-}
 
 
-.projects{
-  margin-top: 5vh;
-  background: rgba(255, 255, 255, 0.6)
+
+svg{
+  cursor: pointer;
 }
 
 $primary: #0f7014;
+
+.tester{
+  margin-bottom: 0.5rem;
+}
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -37,3 +37,5 @@ $primary: #0f7014;
 @import "./greeting.scss";
 @import "./carousel.scss";
 @import "./cards.scss";
+@import "./about.scss";
+@import "./projects.scss";
