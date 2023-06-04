@@ -1,0 +1,42 @@
+.link {
+  text-decoration: none;
+}
+
+.link {
+  color: rgb(108, 117, 125);
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+.productsLink {
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.cardFooter {
+  background-color: $primary;
+  border-top: none;
+
+  &:hover {
+    background-color: #12911e;
+  }
+}
+
+.card {
+  --bs-card-border-width: 0;
+}
+
+#card-light {
+  --bs-card-bg: #fff;
+}
+
+#card-dark {
+  color: #fff;
+  --bs-card-bg: #000;
+}

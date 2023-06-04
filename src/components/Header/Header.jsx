@@ -1,21 +1,23 @@
+import { useState } from "react";
 import { Container } from "react-bootstrap";
-import Navbar from 'react-bootstrap/Navbar';
-/*export default function Header(){
-  return <header className="header text-white">
-    <Container className="d-flex justify-content-between">
-      <p className="fs-3">1</p>
-      <p className="fs-3">2</p>
-      <p className="fs-3">3</p>
-    </Container>
-  </header>
-}*/
+import Navbar from "react-bootstrap/Navbar";
+import { FaMoon, FaSun } from "react-icons/fa";
+import { useContext } from "react";
+import { ThemeContext } from "../context/ThemeContext";
 
-export default function Header(){
+export default function Header() {
+  const { theme, setTheme } = useContext(ThemeContext);
+
   return (
-    <Navbar expand="lg" variant="light"  bg="light">
-      <Container className="text-white">
-        <Navbar.Brand href="#">Welcome</Navbar.Brand>
-        <Navbar.Text>welcome</Navbar.Text>
+    <Navbar sticky="top" expand="lg" className={theme === "light" ? "bg-light" : "bg-dark navbar-dark"}>
+      <Container>
+        <Navbar.Brand>Welcome</Navbar.Brand>
+        <Navbar.Brand onClick={() => (theme === "dark" ? setTheme("light") : null)}>
+          <FaMoon />
+        </Navbar.Brand>
+        <Navbar.Brand onClick={() => (theme === "light" ? setTheme("dark") : null)}>
+          <FaSun />
+        </Navbar.Brand>
       </Container>
     </Navbar>
   );
