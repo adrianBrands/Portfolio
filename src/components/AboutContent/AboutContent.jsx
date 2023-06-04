@@ -24,7 +24,9 @@ export function AboutContent() {
             <Link to="https://github.com/adrianBrands">
               <Github className="mt-4 mb-0" color={theme === "light" ? "white" : "dark"} size={45} />
             </Link>
+            <Link to="https://www.linkedin.com/in/adrian-brandshaug-b15a95279">
             <Linkedin className="mt-4 mb-0" color={theme === "light" ? "white" : "dark"} size={45} />
+            </Link>
           </div>
         </Col>
       </Row>
