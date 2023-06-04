@@ -12,12 +12,12 @@ import { ThemeContext } from "../context/ThemeContext";
 export function Cards() {
   const { theme } = useContext(ThemeContext);
   const DarkLight = () => {
-    return theme === "light" ? "card-light" : "card-dark" 
-  }
+    return theme === "light" ? "card-light" : "card-dark";
+  };
 
   const DarkLightLogo = () => {
-    return theme === "light" ? "black" : "white" 
-  }
+    return theme === "light" ? "black" : "white";
+  };
   return (
     <>
       <div id={theme === "light" ? "projects-light" : "projects-dark"} className="d-flex flex-column align-items-center">
@@ -42,6 +42,9 @@ export function Cards() {
                     </Card.Text>
                   </Link>
                 </div>
+                <div className="d-flex justify-content-center align-items-center">
+                  <Card.Text className="mt-3 fs-5">Project building a responsive blog website, with the interest of cars.</Card.Text>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -63,6 +66,12 @@ export function Cards() {
                       <BrowserSafari color={DarkLightLogo()} size={35} /> Live site
                     </Card.Text>
                   </Link>
+                </div>
+                <div className="d-flex justify-content-center align-items-center">
+                  <Card.Text className="mt-3 fs-5">
+                    An auction website, where logged in users can bid on items, as well as create their own items for auction. The user can also
+                    update their avatar image.
+                  </Card.Text>
                 </div>
               </Card.Body>
             </Card>
@@ -86,6 +95,9 @@ export function Cards() {
                     </Card.Text>
                   </Link>
                 </div>
+                <div className="d-flex justify-content-center align-items-center">
+                  <Card.Text className="mt-3 fs-5">E-commerce site created with React</Card.Text>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -107,6 +119,9 @@ export function Cards() {
                       <BrowserSafari color={DarkLightLogo()} size={35} /> Live site
                     </Card.Text>
                   </Link>
+                </div>
+                <div className="d-flex justify-content-center align-items-center">
+                  <Card.Text className="mt-3 fs-5">Booking site created with React</Card.Text>
                 </div>
               </Card.Body>
             </Card>
