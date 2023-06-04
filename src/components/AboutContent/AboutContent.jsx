@@ -7,7 +7,7 @@ import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 
 export function AboutContent() {
-  const {theme} = useContext(ThemeContext)
+  const { theme } = useContext(ThemeContext);
   return (
     <Container className={theme === "light" ? "text-white" : "text-dark"}>
       <Row className="mt-3">
@@ -21,10 +21,10 @@ export function AboutContent() {
             <p className="fs-4 mt-0 fw-bolder tester">adrianbrandshaug@hotmail.com</p>
           </div>
           <div className="d-flex flex-wrap justify-content-between align-items-center mt-5">
-          <Link to="https://github.com/adrianBrands"><Github className="mt-4 mb-0" color={theme === "light" ? "white" : "dark"} size={45} /></Link>
-          <Linkedin className="mt-4 mb-0" color={theme === "light" ? "white" : "dark"} size={45} />
-          
-
+            <Link to="https://github.com/adrianBrands">
+              <Github className="mt-4 mb-0" color={theme === "light" ? "white" : "dark"} size={45} />
+            </Link>
+            <Linkedin className="mt-4 mb-0" color={theme === "light" ? "white" : "dark"} size={45} />
           </div>
         </Col>
       </Row>

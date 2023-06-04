@@ -1,31 +1,22 @@
 body {
   display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    background: rgb(255, 255, 255);
-   
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: rgb(255, 255, 255);
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
-/*code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}*/
-
-
-
-
-svg{
+svg {
   cursor: pointer;
 }
 
 $primary: #0f7014;
 
-.tester{
+.tester {
   margin-bottom: 0.5rem;
 }
 
@@ -33,7 +24,7 @@ $primary: #0f7014;
 
 @import "./header.scss";
 @import "./footer.scss";
-@import "./video.scss"; 
+@import "./video.scss";
 @import "./greeting.scss";
 @import "./carousel.scss";
 @import "./cards.scss";

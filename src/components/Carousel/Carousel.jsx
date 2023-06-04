@@ -5,6 +5,7 @@ import auctioImage from "../../images/semesterProject2HomePage.jpg";
 import holidaze from "../../images/Holidaze.jpg";
 import ecom from "../../images/ecom.jpg";
 import { Container } from "react-bootstrap";
+
 export function CarouselSlide() {
   const [index, setIndex] = useState(0);
 

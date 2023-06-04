@@ -5,11 +5,9 @@
 .link {
   color: rgb(108, 117, 125);
 
-
-&:hover{
-  color: $primary;
-}
-
+  &:hover {
+    color: $primary;
+  }
 }
 
 .productsLink {
@@ -21,7 +19,6 @@
   }
 }
 
-
 .cardFooter {
   background-color: $primary;
   border-top: none;
@@ -31,20 +28,15 @@
   }
 }
 
-.card{
+.card {
   --bs-card-border-width: 0;
 }
 
-
-#card-light{
-
-    --bs-card-bg: #fff;
- 
-
+#card-light {
+  --bs-card-bg: #fff;
 }
 
-#card-dark{
+#card-dark {
   color: #fff;
-    --bs-card-bg: #000;
-  
+  --bs-card-bg: #000;
 }

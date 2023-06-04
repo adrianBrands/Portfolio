@@ -11,17 +11,13 @@ export function Video() {
         <video autoPlay muted loop className="video">
           <source src={VideoFileDark} type="video/mp4" />
         </video>
-      ) : (
-      null
-      )}
+      ) : null}
 
-{theme === "dark" ? (
+      {theme === "dark" ? (
         <video autoPlay muted loop className="video">
           <source src={VideoFileLight} type="video/mp4" />
         </video>
-      ) : (
-        null
-      )}
+      ) : null}
     </div>
   );
 }
