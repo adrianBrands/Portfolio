@@ -8,7 +8,14 @@ export function Video() {
   return (
     <div>
       {theme === "light" ? (
-        <video  src={VideoFileDark}  controls="true" autoPlay muted loop playsInline="true" disablePictureInPicture="true" className="video"/>
+        <video  autoPlay={true} 
+        loop={true}
+        controls={false} 
+        playsInline
+        muted 
+        src={VideoFileDark}
+        type="video/mp4" 
+        className="video"/>
           
 
         
