@@ -8,23 +8,13 @@ export function Video() {
   return (
     <div>
       {theme === "light" ? (
-        <div dangerouslySetInnerHTML={{ __html: `
-        <video
-          loop
-          muted
-          autoplay
-          playsinline
-          src="${VideoFileDark}"
-          class="video"
-        />,
-      ` }}></div>
-          
-
-        
+        <video autoPlay muted loop playsInline="true" disablePictureInPicture="true" className="video">
+          <source src={VideoFileDark} type="video/mp4" />
+        </video>
       ) : null}
 
       {theme === "dark" ? (
-        <video width="100%" height="100%" controls="true" autoPlay muted loop playsInline="true" disablePictureInPicture="true" className="video">
+        <video autoPlay muted loop playsInline="true" disablePictureInPicture="true" className="video">
           <source src={VideoFileLight} type="video/mp4" />
         </video>
       ) : null}
