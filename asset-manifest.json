@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.317982d8.css",
+    "main.js": "/Portfolio/static/js/main.aac7107e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mixkit-flying-through-the-clouds-with-the-radiant-sun-14171-medium.mp4": "/Portfolio/static/media/mixkit-flying-through-the-clouds-with-the-radiant-sun-14171-medium.0fb3fc33fdbb149cb6eb.mp4",
+    "static/media/video.mp4": "/Portfolio/static/media/video.83a909eb1e5571697ec9.mp4",
+    "static/media/profilbilde.jpg": "/Portfolio/static/media/profilbilde.6400186894ae947787b7.jpg",
+    "static/media/Holidaze.jpg": "/Portfolio/static/media/Holidaze.b7de8e0d5cb59f387879.jpg",
+    "static/media/screenshot2.jpg": "/Portfolio/static/media/screenshot2.cf2f2683ca4602e98b5a.jpg",
+    "static/media/semesterProject2HomePage.jpg": "/Portfolio/static/media/semesterProject2HomePage.dcf36043d356fb5800c6.jpg",
+    "static/media/ecom.jpg": "/Portfolio/static/media/ecom.cfbcd6d332b74098a238.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.317982d8.css.map": "/Portfolio/static/css/main.317982d8.css.map",
+    "main.aac7107e.js.map": "/Portfolio/static/js/main.aac7107e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.317982d8.css",
+    "static/js/main.aac7107e.js"
+  ]
+}
