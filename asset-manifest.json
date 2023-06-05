@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.317982d8.css",
-    "main.js": "/Portfolio/static/js/main.6919223a.js",
+    "main.js": "/Portfolio/static/js/main.de3f18e0.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/mixkit-flying-through-the-clouds-with-the-radiant-sun-14171-medium.mp4": "/Portfolio/static/media/mixkit-flying-through-the-clouds-with-the-radiant-sun-14171-medium.0fb3fc33fdbb149cb6eb.mp4",
     "static/media/video.mp4": "/Portfolio/static/media/video.83a909eb1e5571697ec9.mp4",
@@ -12,11 +12,11 @@
     "static/media/ecom.jpg": "/Portfolio/static/media/ecom.cfbcd6d332b74098a238.jpg",
     "index.html": "/Portfolio/index.html",
     "main.317982d8.css.map": "/Portfolio/static/css/main.317982d8.css.map",
-    "main.6919223a.js.map": "/Portfolio/static/js/main.6919223a.js.map",
+    "main.de3f18e0.js.map": "/Portfolio/static/js/main.de3f18e0.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.317982d8.css",
-    "static/js/main.6919223a.js"
+    "static/js/main.de3f18e0.js"
   ]
 }
