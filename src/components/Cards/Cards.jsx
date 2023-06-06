@@ -27,6 +27,31 @@ export function Cards() {
         <Row md={2} xs={1} lg={2} className="g-3 mt-1 mb-5">
           <Col>
             <Card id={DarkLight()} className="venueCard h-100">
+              <Card.Img className="cardImg rounded" style={{ width: "100%", height: "50vh", objectFit: "cover" }} variant="top" src={holidaze} />
+              <Card.Body>
+                <Card.Title className="mb-3 fs-4 border-bottom">Booking site</Card.Title>
+                <div className="d-flex mb-2 mt-4  align-items-center justify-content-between">
+                  <Link className="link" to="https://github.com/adrianBrands/projcet-exam-2">
+                    <Card.Text className="mb-0 link fs-5">
+                      {" "}
+                      <Github color={DarkLightLogo()} size={35} /> Github Repo
+                    </Card.Text>
+                  </Link>
+                  <Link className="link" to="https://endearing-squirrel-90a49e.netlify.app/">
+                    <Card.Text className="mb-0 link fs-5">
+                      <BrowserSafari color={DarkLightLogo()} size={35} /> Live site
+                    </Card.Text>
+                  </Link>
+                </div>
+                <div className="d-flex justify-content-center align-items-center">
+                  <Card.Text className="mt-3 fs-5">Booking site created with React</Card.Text>
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col>
+            <Card id={DarkLight()} className="venueCard h-100">
               <Card.Img className="cardImg rounded" style={{ width: "100%", height: "50vh", objectFit: "cover" }} variant="top" src={petrolImage} />
               <Card.Body>
                 <Card.Title className="mb-3 fs-4 border-bottom">Petrol Head Blog</Card.Title>
@@ -97,31 +122,6 @@ export function Cards() {
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
                   <Card.Text className="mt-3 fs-5">E-commerce site created with React</Card.Text>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col>
-            <Card id={DarkLight()} className="venueCard h-100">
-              <Card.Img className="cardImg rounded" style={{ width: "100%", height: "50vh", objectFit: "cover" }} variant="top" src={holidaze} />
-              <Card.Body>
-                <Card.Title className="mb-3 fs-4 border-bottom">Booking site</Card.Title>
-                <div className="d-flex mb-2 mt-4  align-items-center justify-content-between">
-                  <Link className="link" to="https://github.com/adrianBrands/projcet-exam-2">
-                    <Card.Text className="mb-0 link fs-5">
-                      {" "}
-                      <Github color={DarkLightLogo()} size={35} /> Github Repo
-                    </Card.Text>
-                  </Link>
-                  <Link className="link" to="https://endearing-squirrel-90a49e.netlify.app/">
-                    <Card.Text className="mb-0 link fs-5">
-                      <BrowserSafari color={DarkLightLogo()} size={35} /> Live site
-                    </Card.Text>
-                  </Link>
-                </div>
-                <div className="d-flex justify-content-center align-items-center">
-                  <Card.Text className="mt-3 fs-5">Booking site created with React</Card.Text>
                 </div>
               </Card.Body>
             </Card>
